@@ -1,0 +1,11 @@
+{
+    "include": [
+        "src/app/*"
+    ],
+    "target":  "es5",
+    "compilerOptions": {
+
+        "module": "CommonJS",
+        "removeComments": true
+    }
+}

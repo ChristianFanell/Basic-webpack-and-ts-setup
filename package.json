@@ -1,0 +1,21 @@
+{
+  "name": "fanell.dev",
+  "version": "1.0.0",
+  "description": "Simple spa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch"
+  },
+  "author": "Christian Fanell",
+  "license": "ISC",
+  "devDependencies": {
+
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "ts-loader": "^8.0.18",
+    "typescript": "^4.2.3"
+  }
+}
