@@ -3,10 +3,6 @@ export const footer = () => {
     const writer = 'Flanell';
 
     return( 
-        `<div class="footer">
-            <div>
-                &copy; ${writer} ${date.getFullYear()}
-            </div>    
-        </>`
+        `<div class="footer"><div>&copy; ${writer} ${date.getFullYear()}</div></div>`
     );
 }
