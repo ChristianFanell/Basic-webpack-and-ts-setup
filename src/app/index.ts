@@ -1,5 +1,5 @@
-import { Header } from "./header";
-import { footer } from "./footer";
+import { Header } from "./components/header";
+import { footer } from "./components/footer";
 
 (()=> {
     const root = document.getElementById('root');
